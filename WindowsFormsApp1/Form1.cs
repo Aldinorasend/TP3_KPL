@@ -17,6 +17,11 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string nama_praktikan  = textBox1.Text; 
+            Output.Text = "Halo " + nama_praktikan;
+            
+        }
     }
 }
